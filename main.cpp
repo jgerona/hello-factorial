@@ -11,6 +11,8 @@ using namespace std;
 void test01() {
   assert(fact(1) == 1);
   assert(fact(3) == 6);
+  assert(fact(31) == -1);
+  unusedFunction();
 }
 
 void test02() {
